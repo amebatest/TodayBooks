@@ -1,0 +1,17 @@
+/* 
+ Localization.strings
+ webook
+ 
+ Created by felix on 11-10-25.
+ Copyright 2011年 weburner.com All rights reserved.
+ */
+"SearchBarPlaceholder" = "Search within Document";
+"Site %d" = "Site %d";
+
+"Close" = "Close";
+"Documents" = "Documents";
+"Page" = "Page";
+"Grid" = "Grid";
+
+"DeleteMagazineSingle" = "Delete %@?";
+"DeleteMagazineMultiple" = "Delete %@? (%d Magazines)";

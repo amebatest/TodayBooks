@@ -1,0 +1,17 @@
+/* 
+  Localization.strings
+  webook
+
+ Created by felix on 11-10-25.
+ Copyright 2011年 weburner.com All rights reserved.
+*/
+"SearchBarPlaceholder" = "文档搜索";
+"Site %d" = "站点 %d";
+
+"Close" = "关闭";
+"Documents" = "文档";
+"Page" = "页面";
+"Grid" = "略图";
+
+"DeleteMagazineSingle" = "删除 %@?";
+"DeleteMagazineMultiple" = "删除 %@? (%d 文件)";

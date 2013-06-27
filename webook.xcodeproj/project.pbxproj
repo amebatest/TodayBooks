@@ -1,0 +1,349 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3929B26D1535641100FEBD49 /* 57.png in Resources */ = {isa = PBXBuildFile; fileRef = 3929B26C1535641100FEBD49 /* 57.png */; };
+		3929B26F1535641A00FEBD49 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 3929B26E1535641A00FEBD49 /* 114.png */; };
+		3929B2711535643500FEBD49 /* 72.png in Resources */ = {isa = PBXBuildFile; fileRef = 3929B2701535643500FEBD49 /* 72.png */; };
+		3C1C4B51177AE17E00A77F95 /* Books in Resources */ = {isa = PBXBuildFile; fileRef = 3C1C4B50177AE17E00A77F95 /* Books */; };
+		3C1C4B55177AE1EE00A77F95 /* WBPDF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C1C4B54177AE1EE00A77F95 /* WBPDF.framework */; };
+		DC1525951455E20600AC1E59 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC1525911455E20600AC1E59 /* Localizable.strings */; };
+		DCFF41601455DA8100C329B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFF415F1455DA8100C329B1 /* UIKit.framework */; };
+		DCFF41621455DA8100C329B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFF41611455DA8100C329B1 /* Foundation.framework */; };
+		DCFF41641455DA8100C329B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFF41631455DA8100C329B1 /* CoreGraphics.framework */; };
+		DCFF416A1455DA8100C329B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCFF41681455DA8100C329B1 /* InfoPlist.strings */; };
+		DCFF416D1455DA8100C329B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF416C1455DA8100C329B1 /* main.m */; };
+		DCFF41701455DA8100C329B1 /* webookAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFF416F1455DA8100C329B1 /* webookAppDelegate.m */; };
+		DCFF41841455DC5D00C329B1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DCFF41831455DC5D00C329B1 /* Icon.png */; };
+		DCFF41861455DCD500C329B1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFF41851455DCD500C329B1 /* MessageUI.framework */; };
+		DCFF41881455DD0600C329B1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFF41871455DD0600C329B1 /* QuartzCore.framework */; };
+		DCFF418A1455DD1F00C329B1 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCFF41891455DD1F00C329B1 /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3929B26C1535641100FEBD49 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		3929B26E1535641A00FEBD49 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		3929B2701535643500FEBD49 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
+		397E550B157613B2004B7C61 /* 57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57.png; sourceTree = "<group>"; };
+		397E550D157613BC004B7C61 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		397E550F157613C5004B7C61 /* 72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72.png; sourceTree = "<group>"; };
+		3C1C4B50177AE17E00A77F95 /* Books */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Books; sourceTree = SOURCE_ROOT; };
+		3C1C4B54177AE1EE00A77F95 /* WBPDF.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WBPDF.framework; sourceTree = "<group>"; };
+		DC1525921455E20600AC1E59 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC1525931455E20600AC1E59 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC1525941455E20600AC1E59 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DCFF415B1455DA8100C329B1 /* 自在之物试读版.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自在之物试读版.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCFF415F1455DA8100C329B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCFF41611455DA8100C329B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCFF41631455DA8100C329B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCFF41671455DA8100C329B1 /* webook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "webook-Info.plist"; sourceTree = "<group>"; };
+		DCFF41691455DA8100C329B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCFF416B1455DA8100C329B1 /* webook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "webook-Prefix.pch"; sourceTree = "<group>"; };
+		DCFF416C1455DA8100C329B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCFF416E1455DA8100C329B1 /* webookAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = webookAppDelegate.h; sourceTree = "<group>"; };
+		DCFF416F1455DA8100C329B1 /* webookAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webookAppDelegate.m; sourceTree = "<group>"; };
+		DCFF41831455DC5D00C329B1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DCFF41851455DCD500C329B1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DCFF41871455DD0600C329B1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DCFF41891455DD1F00C329B1 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCFF41581455DA8100C329B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1C4B55177AE1EE00A77F95 /* WBPDF.framework in Frameworks */,
+				DCFF418A1455DD1F00C329B1 /* CoreText.framework in Frameworks */,
+				DCFF41881455DD0600C329B1 /* QuartzCore.framework in Frameworks */,
+				DCFF41861455DCD500C329B1 /* MessageUI.framework in Frameworks */,
+				DCFF41601455DA8100C329B1 /* UIKit.framework in Frameworks */,
+				DCFF41621455DA8100C329B1 /* Foundation.framework in Frameworks */,
+				DCFF41641455DA8100C329B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1525901455E20600AC1E59 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				DC1525911455E20600AC1E59 /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		DCFF41501455DA8000C329B1 = {
+			isa = PBXGroup;
+			children = (
+				397E550F157613C5004B7C61 /* 72.png */,
+				397E550D157613BC004B7C61 /* 114.png */,
+				397E550B157613B2004B7C61 /* 57.png */,
+				3929B2701535643500FEBD49 /* 72.png */,
+				3929B26E1535641A00FEBD49 /* 114.png */,
+				3929B26C1535641100FEBD49 /* 57.png */,
+				DCFF41651455DA8100C329B1 /* webook */,
+				DCFF415E1455DA8100C329B1 /* Frameworks */,
+				DCFF415C1455DA8100C329B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCFF415C1455DA8100C329B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF415B1455DA8100C329B1 /* 自在之物试读版.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCFF415E1455DA8100C329B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C4B54177AE1EE00A77F95 /* WBPDF.framework */,
+				DCFF41891455DD1F00C329B1 /* CoreText.framework */,
+				DCFF41871455DD0600C329B1 /* QuartzCore.framework */,
+				DCFF41851455DCD500C329B1 /* MessageUI.framework */,
+				DCFF415F1455DA8100C329B1 /* UIKit.framework */,
+				DCFF41611455DA8100C329B1 /* Foundation.framework */,
+				DCFF41631455DA8100C329B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCFF41651455DA8100C329B1 /* webook */ = {
+			isa = PBXGroup;
+			children = (
+				3C1C4B50177AE17E00A77F95 /* Books */,
+				DCFF416E1455DA8100C329B1 /* webookAppDelegate.h */,
+				DCFF416F1455DA8100C329B1 /* webookAppDelegate.m */,
+				DCFF41661455DA8100C329B1 /* Supporting Files */,
+			);
+			path = webook;
+			sourceTree = "<group>";
+		};
+		DCFF41661455DA8100C329B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC1525901455E20600AC1E59 /* Localization */,
+				DCFF41831455DC5D00C329B1 /* Icon.png */,
+				DCFF41671455DA8100C329B1 /* webook-Info.plist */,
+				DCFF41681455DA8100C329B1 /* InfoPlist.strings */,
+				DCFF416B1455DA8100C329B1 /* webook-Prefix.pch */,
+				DCFF416C1455DA8100C329B1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCFF415A1455DA8100C329B1 /* webook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCFF417C1455DA8100C329B1 /* Build configuration list for PBXNativeTarget "webook" */;
+			buildPhases = (
+				DCFF41571455DA8100C329B1 /* Sources */,
+				DCFF41581455DA8100C329B1 /* Frameworks */,
+				DCFF41591455DA8100C329B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = webook;
+			productName = webook;
+			productReference = DCFF415B1455DA8100C329B1 /* 自在之物试读版.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCFF41521455DA8000C329B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = DCFF41551455DA8000C329B1 /* Build configuration list for PBXProject "webook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				"zh-Hans",
+			);
+			mainGroup = DCFF41501455DA8000C329B1;
+			productRefGroup = DCFF415C1455DA8100C329B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCFF415A1455DA8100C329B1 /* webook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCFF41591455DA8100C329B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFF416A1455DA8100C329B1 /* InfoPlist.strings in Resources */,
+				DCFF41841455DC5D00C329B1 /* Icon.png in Resources */,
+				DC1525951455E20600AC1E59 /* Localizable.strings in Resources */,
+				3929B26D1535641100FEBD49 /* 57.png in Resources */,
+				3929B26F1535641A00FEBD49 /* 114.png in Resources */,
+				3929B2711535643500FEBD49 /* 72.png in Resources */,
+				3C1C4B51177AE17E00A77F95 /* Books in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCFF41571455DA8100C329B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFF416D1455DA8100C329B1 /* main.m in Sources */,
+				DCFF41701455DA8100C329B1 /* webookAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC1525911455E20600AC1E59 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1525921455E20600AC1E59 /* de */,
+				DC1525931455E20600AC1E59 /* en */,
+				DC1525941455E20600AC1E59 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DCFF41681455DA8100C329B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCFF41691455DA8100C329B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCFF417A1455DA8100C329B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		DCFF417B1455DA8100C329B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		DCFF417D1455DA8100C329B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Today Cyber Art Technology Co.";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/webook\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webook/webook-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "webook/webook-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "自在之物试读版";
+				PROVISIONING_PROFILE = "A89CA02C-E32C-4934-B8AD-E586D216C808";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DCFF417E1455DA8100C329B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Today Cyber Art Technology Co.";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/webook\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "webook/webook-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "webook/webook-info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "自在之物试读版";
+				PROVISIONING_PROFILE = "A89CA02C-E32C-4934-B8AD-E586D216C808";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCFF41551455DA8000C329B1 /* Build configuration list for PBXProject "webook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFF417A1455DA8100C329B1 /* Debug */,
+				DCFF417B1455DA8100C329B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCFF417C1455DA8100C329B1 /* Build configuration list for PBXNativeTarget "webook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCFF417D1455DA8100C329B1 /* Debug */,
+				DCFF417E1455DA8100C329B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCFF41521455DA8000C329B1 /* Project object */;
+}
