@@ -31,7 +31,7 @@
     //  pdfController.pageMode = PSPDFPageModeSingle;
     
     //书的标题
-    document.title = @"《“自在之物”乌托邦、波普与个人神学》试读";
+    document.title = @"";
     
     
     UINavigationController *navController = [[[UINavigationController alloc] initWithRootViewController:pdfController] autorelease];
